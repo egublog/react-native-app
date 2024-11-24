@@ -8,6 +8,9 @@ import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
+/**
+ * The TabLayout component is a layout component that contains the tabs for the app.
+ */
 export default function TabLayout() {
   const colorScheme = useColorScheme();
 
