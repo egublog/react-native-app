@@ -1,20 +1,20 @@
-import { StyleSheet} from 'react-native';
+import { StyleSheet } from "react-native";
 
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { ThemedText } from "@/components/ThemedText";
+import { ThemedView } from "@/components/ThemedView";
 
 export default function HomeScreen() {
   return (
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Hello World!</ThemedText>
-      </ThemedView>
+    <ThemedView style={styles.titleContainer}>
+      <ThemedText type="title">Hello World!</ThemedText>
+    </ThemedView>
   );
 }
 
 const styles = StyleSheet.create({
   titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     gap: 8,
   },
 });
